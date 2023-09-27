@@ -14,14 +14,11 @@ ACraftComponent::ACraftComponent()
 // Called when the game starts or when spawned
 void ACraftComponent::BeginPlay()
 {
-	Super::BeginPlay();
-	
+	Super::BeginPlay();	
 }
 
 // Called every frame
 void ACraftComponent::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
-

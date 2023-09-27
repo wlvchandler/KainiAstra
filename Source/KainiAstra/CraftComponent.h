@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "CraftComponent.generated.h"
 
+
 UCLASS()
 class KAINIASTRA_API ACraftComponent : public AActor
 {

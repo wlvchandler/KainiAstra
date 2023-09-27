@@ -4,17 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "CraftComp_IO.generated.h"
+#include "CraftComp_Clickable.generated.h"
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class KAINIASTRA_API UCraftComp_IO : public UActorComponent
+class KAINIASTRA_API UCraftComp_Clickable : public UActorComponent
 {
 	GENERATED_BODY()
 
 public:	
 	// Sets default values for this component's properties
-	UCraftComp_IO();
+	UCraftComp_Clickable();
 
 protected:
 	// Called when the game starts
